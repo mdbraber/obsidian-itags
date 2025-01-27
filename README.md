@@ -10,7 +10,7 @@ in the future!
 
 ## Installation
 - Add a property field `itags` to your vault (e.g. by adding it to one of your files)
-- Update `types.json` in your `.obsidian` diretory to change the type to `tags`
+- Update `types.json` in your `.obsidian` diretory to change the type of the field `itags` to `tags`
 - Clone repository to your local `.obsidian/plugins` directory
 - Change `data.json.example` to `data.json`
 - Run locally (e.g. via `npm run dev`) to compile
