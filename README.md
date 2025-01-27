@@ -1,7 +1,7 @@
 # Obsidian Implicit Tags plugin 
 Prevent nested tags by using a hardcoded tag structure
 
-## ⚠️i DANGER ⚠️
+## ⚠️ DANGER ⚠️
 
 This plugin is not made for daily use yet, so you’ll have to adapt it to your own
 needs manually. It might destroy your vault or burn down your house. Use with care.
