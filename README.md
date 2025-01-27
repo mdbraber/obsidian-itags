@@ -35,3 +35,5 @@ E.g. you could create a field `status` and change the type to `tags` in `types.j
 everything in that field as a tag. You would have to keep the metadata cache in Obsidian
 updated via the `cache.frontmatter.tags` attribute (or if you have a smarter idea to do this:
 [let me know](mailto:m@mdbraber.com)! 
+
+**UPDATE: this functionality is now included - but not extensively tested**
