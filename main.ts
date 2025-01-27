@@ -177,8 +177,8 @@ export default class ImplicitTagsPlugin extends Plugin {
 
 				if(cache.frontmatter) {
 					// FIXME: why do we need to check for unique values; this should not happen... (but it does because of timeout?)
-					//let new_cache_tags = [...cache.frontmatter.tags, ...new_implicit_tags].filter((value, index, array) => array.indexOf(value) === index);
-					let new_cache_tags = [...cache.frontmatter?.tags, ...new_implicit_tags]
+					let new_cache_tags = [...cache.frontmatter.tags, ...new_implicit_tags].filter((value, index, array) => array.indexOf(value) === index);
+					//let new_cache_tags = [...cache.frontmatter?.tags, ...new_implicit_tags]
 
 					// Update frontmatter cache
 					console.log("Updating cache");
