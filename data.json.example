@@ -1,0 +1,15 @@
+{
+	"itags": [
+		{
+			"name": "work",
+			"children": [
+				{ "name": "projectA", "children": [
+					{ "name": "projectA1" },
+					{ "name": "projectA2" }
+				] },
+				{ "name": "projectB" },
+				{ "name": "projectC"}
+			]
+		}
+	]
+}

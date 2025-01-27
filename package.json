@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-itags",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Implicit Tags Plugin",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
@@ -13,12 +13,19 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
-		"@typescript-eslint/eslint-plugin": "5.29.0",
-		"@typescript-eslint/parser": "5.29.0",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.0.0",
 		"builtin-modules": "3.3.0",
 		"esbuild": "0.17.3",
+		"eslint": "^8.57.0",
+		"eslint-config-standard-with-typescript": "^43.0.1",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.34.1",
 		"obsidian": "latest",
+		"prettier": "3.2.5",
 		"tslib": "2.4.0",
-		"typescript": "4.7.4"
+		"typescript": "^4.7.4"
 	}
 }
