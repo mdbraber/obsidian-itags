@@ -1,4 +1,5 @@
 # Obsidian Implicit Tags plugin 
 
-- Use BRAT to install
+- Clone repository to your local `.obsidian/plugins` directory
 - Change `data.json.example` to `data.json`
+- Run locally (e.g. via `npm run dev`) to compile
